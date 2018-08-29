@@ -9,13 +9,18 @@
 
     <body>
         <div class="container">
+           <h1 class="display-4 text-center p-3"> Carte de france interactive LOL !!!! </h1>
+           <div class="row">
+               <div class="col-12">
+                   <a href="session_captcha.php"><button class="btn btn-warning float-right mr-5"> Connexion </button></a>
+               </div>
+           </div>
             <div class="row">
-                <div class="col-12 text-center p-5">
+                <div class="col-12 text-center p-4">
                     <img src="carte_france.php" alt="france" title="france" usemap="#plan"/>
                 </div>
             </div>
-        </div>
-        
+        </div>       
 
         <map id="plan" name="plan">
 

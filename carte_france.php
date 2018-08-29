@@ -18,7 +18,7 @@ while($ligne_tab = $requete->fetch())
     imagefilledellipse($carte, $ligne_tab['pos_x'], $ligne_tab['pos_y'], $ligne_tab['diametre'],$ligne_tab['diametre'], $noir);
 
     //imagettftext (image destination, taille, inclinaison, pos_x, pos_y, couleur, chemin police ttf, texte a écrire);
-    imagettftext($carte, 20, mt_rand(1,360), $ligne_tab['pos_x'] + 15, $ligne_tab['pos_y'] + 5, $noir, "./desyrel.ttf", $ligne_tab['ville']);  
+    imagettftext($carte, 20, 0, $ligne_tab['pos_x'] + 15, $ligne_tab['pos_y'] + 5, $noir, "./desyrel.ttf", $ligne_tab['ville']);  
     
     
 
